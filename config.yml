@@ -1,0 +1,49 @@
+# Alarm thresholds
+alarm:
+  processor: 0.9
+  memory: 0.9
+  reset: true
+
+# App configurations
+app:
+  logomini: <b>F</b>oundation
+  logolarge: Sample App
+  title: Sample App
+  language: en-GB
+  path: ./httpdocs
+  assets: ./httpdocs/assets
+  static: ./httpdocs/static
+  sessionage: 60
+
+# Server configurations
+server:
+  host: "0.0.0.0"
+  port:  82
+  https: false
+  cert:  cert.pem
+  key:   key.pem
+# Database credentials
+database:
+  type: "sqlite"
+  server: ""
+  database: "database.sqlite3"
+  user: ""
+  pass: ""
+  cache: true
+  cacheSize: 1000
+  debug: true
+  sslmode: "disable"
+
+#Log to file
+log:
+  writefile: true
+  size: 5
+  age: 7
+  level: debug
+  path: ./logs
+
+#Tweaks
+tweaks:
+  ballast: true
+  ballastsize: 100mb
+  processors: 0
