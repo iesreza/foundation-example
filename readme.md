@@ -5,7 +5,7 @@ Here is [Foundation](https://github.com/iesreza/foundation/) sample app.
 
 ```go
 go get github.com/iesreza/foundation-example
-cd github.com/iesreza/foundation-example
+cd ~/go/src/github.com/iesreza/foundation-example
 go get ./...
 go build
 
